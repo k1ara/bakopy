@@ -1,37 +1,0 @@
-
--------------------------------------------------------------------------------
-   ROBOCOPY     ::     Robust File Copy for Windows                              
--------------------------------------------------------------------------------
-
-  Started : viernes, 21 de julio de 2017 11:38:11 a.m.
-   Source : C:\Users\karosemena\Desktop\batches\prueba1\directorio1\
-     Dest : C:\Users\karosemena\Desktop\batches\prueba1\directorio2\
-
-    Files : *.txt
-	    
-  Options : /V /TS /FP /BYTES /S /E /DCOPY:DA /COPY:DAT /R:2 /W:10 
-
-------------------------------------------------------------------------------
-
-	                   4	C:\Users\karosemena\Desktop\batches\prueba1\directorio1\
-	  *EXTRA File 		      21 2017/07/17 14:05:08	C:\Users\karosemena\Desktop\batches\prueba1\directorio2\archivo1.txt
-	  *EXTRA File 		      21 2017/07/17 14:05:21	C:\Users\karosemena\Desktop\batches\prueba1\directorio2\archivo2.txt
-	  *EXTRA File 		      20 2017/07/17 14:05:34	C:\Users\karosemena\Desktop\batches\prueba1\directorio2\archivo3.txt
-	    New File  		      24 2017/06/28 16:07:11	C:\Users\karosemena\Desktop\batches\prueba1\directorio1\corte1.txt  0%  100%  
-	    New File  		      24 2017/06/28 16:08:08	C:\Users\karosemena\Desktop\batches\prueba1\directorio1\corte2.txt  0%  100%  
-	    New File  		      24 2017/06/28 16:08:41	C:\Users\karosemena\Desktop\batches\prueba1\directorio1\corte3.txt  0%  100%  
-	    New File  		      24 2017/06/28 16:09:28	C:\Users\karosemena\Desktop\batches\prueba1\directorio1\corte4.txt  0%  100%  
-
-------------------------------------------------------------------------------
-
-               Total    Copied   Skipped  Mismatch    FAILED    Extras
-    Dirs :         1         0         1         0         0         0
-   Files :         4         4         0         0         0         3
-   Bytes :        96        96         0         0         0        62
-   Times :   0:00:00   0:00:00                       0:00:00   0:00:00
-
-
-   Speed :               13714 Bytes/sec.
-   Speed :               0.784 MegaBytes/min.
-   Ended : viernes, 21 de julio de 2017 11:38:11 a.m.
-
