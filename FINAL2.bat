@@ -7,7 +7,7 @@ title BAKOPY
 set PATH=%PATH%;"C:\program Files\7-zip"
 cd prueba1
 cd local
-FOR %%I IN (*.txt) DO (7z.exe a -t7z "%%~nI" "%I")
+FOR %%I IN (*.txt) DO (7z.exe a -t7z "%%~nI" "%%I")
 cd ..
 robocopy local remoto *.7z /E /V /FP /R:2 /W:10 /TS /BYTES
 cd local
